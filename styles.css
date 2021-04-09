@@ -140,7 +140,7 @@ div.background p {
 div.hero-background-pos {
     position: absolute;
     right: 0px;
-    left: 70%;
+    left: 67%;
     background: #fff;
     width: 7rem;
     height: 7rem;
@@ -520,6 +520,36 @@ div.nav-bar.open{
 }
 
 @media screen and (max-width: 1023px) {
+
+    div.footer-input {
+        
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    input[type="text"] {
+        margin-bottom: 15px;        
+        width: 70%;
+        
+    }
+    input[type="email"] {
+        
+        width: 70%;
+
+    }
+    
+    textarea {
+        width: 70%;
+        margin-left: 0px;
+    }
+    
+    div.footer-btn a {
+        width: 70%;
+        text-align: center;
+    }
+
+
 
 
     div.nav-bar {
